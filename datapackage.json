@@ -1,0 +1,57 @@
+{
+  "bytes": 10673,
+  "count_of_rows": 305,
+  "hash": "49e5773dda2903b4f00cec2640bf224a",
+  "name": "gni-per-capita-ppp",
+  "profile": "data-package",
+  "resources": [
+    {
+      "bytes": 10673,
+      "dialect": {
+        "caseSensitiveHeader": false,
+        "delimiter": ",",
+        "doubleQuote": true,
+        "header": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "6474d5ad5cd903b66bf3ad1521f2a399",
+      "name": "gni-per-capita-ppp",
+      "path": "data/gni-per-capita-ppp.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "Country Name",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Country Code",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Year",
+            "type": "year"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "Value",
+            "type": "number"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    }
+  ],
+  "title": "GNI per capita (PPP, current international $)"
+}
